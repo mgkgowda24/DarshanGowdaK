@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Card Listing</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="tabs">
+    <button class="tab" onclick="filterCards('your')">Your</button>
+    <button class="tab" onclick="filterCards('all')">All</button>
+    <button class="tab" onclick="filterCards('blocked')">Blocked</button>
+  </div>
+
+  <div class="cards-container">
+    <div id="card-list"></div>
+    <div id="loading" style="display: none;">Loading...</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
